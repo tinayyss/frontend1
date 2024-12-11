@@ -1,0 +1,85 @@
+/* Body Styles */
+body {
+    background: black (135deg, #6a82fb, #fc5c7d); /* Soft blue to pink gradient */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 20px;
+    min-height: 50vh;
+    font-family: 'Roboto', sans-serif;
+    color: black; /* Dark grey text for readability */
+  }
+  
+  /* Footer Styles */
+  footer {
+    position: relative;
+    margin-top: auto;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.85); /* Slightly transparent white */
+    padding: 1rem;
+    color: #333; /* Dark text for footer */
+    min-height: 5vh;
+  }
+  
+  /* Smaller Heading Styles */
+  .smaller-h4 {
+    font-size: 1rem;
+    color: #555; /* Light grey for subheadings */
+  }
+  
+  /* Link Colors for Layout */
+  a {
+    color: black; /* Accent pinkish color */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #6a82fb; /* Purple-blue hover effect */
+    text-decoration: underline;
+  }
+  
+  /* Sidebar Styles */
+  aside {
+    background-color: #343a40; /* Dark background for sidebar */
+    color: #f8f9fa; /* Light text in sidebar */
+  }
+  
+  aside a {
+    color: #f8f9fa; /* Light color for links in sidebar */
+  }
+  
+  aside a:hover {
+    color: black; /* Pinkish hover effect for links */
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #f8f9fa; /* Light background for header */
+    color: #343a40; /* Dark text for header */
+  }
+  
+  /* Main Content Section */
+  main {
+    background-color: rgba(255, 255, 255, 0.9); /* Slight white background for content */
+    border-radius: 10px;
+    padding: 20px;
+    color: #333; /* Dark text for content */
+    min-height: 45vh;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+  }
+  
+  /* Button Styles */
+  button {
+    background-color: white; /* Accent pinkish color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20rem;
+    border-radius: 10px;
+  }
+  
+
+  button:hover {
+    background-color: #6a82fb; /* Purple-blue on hover */
+  }
+  
